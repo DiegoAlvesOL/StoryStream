@@ -1,0 +1,28 @@
+# DESCRIPTION: Orchestration file for StoryStream.
+# PURPOSE: I created this to make my teammates' lives easier.
+# They can run the whole project with just one command.
+
+
+version: '3.8'
+
+services:
+  # This is the primary web server service for our application.
+  # I named it clearly so everyone knows its purpose.
+  storystream_web_server:
+    # Build tells Docker to look for my Dockerfile in the current directory.
+    build: .
+
+    # I set a specific container name to make it easy to find in Docker Desktop.
+    container_name: container_storystream_development
+
+    # Mapping ports: Host (my Mac) 8080 to Container (Nginx) 80.
+    ports:
+      - "8080:80"
+
+    # Volumes link my local project folder to the container's internal folder.
+    # This is the 'Magic Mirror' that allows real-time updates without rebuilding.
+    volumes:
+      - .:/usr/share/nginx/html
+
+    # This ensures the server restarts automatically if it ever crashes.
+    restart: always
