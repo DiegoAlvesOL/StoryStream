@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "movieId": 1,
+    "movieTitle": "Inception",
+    "movieGenre": "Science Fiction",
+    "movieReleaseYear": 2010,
+    "movieDirector": "Christopher Nolan",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/9gk7Fn9UVC1r9oSTkq9C1C3O1PI.jpg",
+    "movieSynopsis": "A thief who steals corporate secrets through the use of dream-sharing technology..."
+  },
+  {
+    "movieId": 2,
+    "movieTitle": "The Shawshank Redemption",
+    "movieGenre": "Drama",
+    "movieReleaseYear": 1994,
+    "movieDirector": "Frank Darabont",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/q6y0Go1tsSET2fs7XpCqKg3BvTM.jpg",
+    "movieSynopsis": "Two imprisoned men bond over a number of years..."
+  },
+  {
+    "movieId": 3,
+    "movieTitle": "The Dark Knight",
+    "movieGenre": "Action",
+    "movieReleaseYear": 2008,
+    "movieDirector": "Christopher Nolan",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDp9QmSbmRkPqG9mH9d.jpg",
+    "movieSynopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham..."
+  },
+  {
+    "movieId": 4,
+    "movieTitle": "Pulp Fiction",
+    "movieGenre": "Crime",
+    "movieReleaseYear": 1994,
+    "movieDirector": "Quentin Tarantino",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/d5iIl9h9btztp90Yv7StipOWCfh.jpg",
+    "movieSynopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife..."
+  },
+  {
+    "movieId": 5,
+    "movieTitle": "Interstellar",
+    "movieGenre": "Adventure",
+    "movieReleaseYear": 2014,
+    "movieDirector": "Christopher Nolan",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6Ea7mYFmmodesvRoaR9.jpg",
+    "movieSynopsis": "A team of explorers travel through a wormhole in space..."
+  }
+]

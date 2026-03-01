@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "bookId": 1,
+    "bookTitle": "Project Hail Mary",
+    "bookAuthor": "Andy Weir",
+    "bookGenre": "Science Fiction",
+    "bookPublicationYear": 2021,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/919fV1L7x+L._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "Ryland Grace is the sole survivor on a desperate, last-chance mission. If he fails, humanity and the earth itself will perish."
+  },
+  {
+    "bookId": 2,
+    "bookTitle": "The Great Gatsby",
+    "bookAuthor": "F. Scott Fitzgerald",
+    "bookGenre": "Classic Literature",
+    "bookPublicationYear": 1925,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/71FTB6ICu3L._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan."
+  },
+  {
+    "bookId": 3,
+    "bookTitle": "Dune",
+    "bookAuthor": "Frank Herbert",
+    "bookGenre": "Science Fiction",
+    "bookPublicationYear": 1965,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/81ycS7z87tL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "Set in the far future amidst a sprawling feudal interstellar empire, Dune tells the story of young Paul Atreides."
+  },
+  {
+    "bookId": 4,
+    "bookTitle": "Atomic Habits",
+    "bookAuthor": "James Clear",
+    "bookGenre": "Self-Help",
+    "bookPublicationYear": 2018,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/81YkqxaumfL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "A supremely practical and useful guide to building good habits and breaking bad ones."
+  },
+  {
+    "bookId": 5,
+    "bookTitle": "The Hobbit",
+    "bookAuthor": "J.R.R. Tolkien",
+    "bookGenre": "Fantasy",
+    "bookPublicationYear": 1937,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/710+H9E3nEL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves."
+  }
+]
