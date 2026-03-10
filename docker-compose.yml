@@ -1,28 +1,23 @@
-# DESCRIPTION: Orchestration file for StoryStream.
-# PURPOSE: I created this to make my teammates' lives easier.
-# They can run the whole project with just one command.
-
-
-version: '3.8'
+# STORYSTREAM | Development Environment
+# ---------------------------------------------------------
+# This setup enables "Hot Reloading" via Volumes.
+# Save your changes in WebStorm and just refresh the browser.
 
 services:
-  # This is the primary web server service for our application.
-  # I named it clearly so everyone knows its purpose.
   storystream_web_server:
-    # Build tells Docker to look for my Dockerfile in the current directory.
-    build: .
-
-    # I set a specific container name to make it easy to find in Docker Desktop.
+    # Using the official Nginx Alpine image as our clean base
+    image: nginx:alpine
     container_name: container_storystream_development
 
-    # Mapping ports: Host (my Mac) 8080 to Container (Nginx) 80.
+    # Port mapping: localhost:8080 -> Container:80
     ports:
       - "8080:80"
 
-    # Volumes link my local project folder to the container's internal folder.
-    # This is the 'Magic Mirror' that allows real-time updates without rebuilding.
+    # THE HOT-RELOAD MIRROR:
+    # Maps our local directory to the Nginx web root.
+    # No need for manual builds during development.
     volumes:
       - .:/usr/share/nginx/html
 
-    # This ensures the server restarts automatically if it ever crashes.
+    # Ensures the server stays up and running
     restart: always

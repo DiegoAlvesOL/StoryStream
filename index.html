@@ -3,17 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StoryStream - Media Hub</title>
-
-    <link rel="stylesheet" href="assets/css/global_style.css">
+    <title>StoryStream | Professional Media Hub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<main id="main_container">
-    <h1>StoryStream</h1>
+<header class="main_navigation_bar">
+    <h1 class="project_brand_logo">StoryStream</h1>
+</header>
+
+<main class="primary_content_container">
+
+    <section class="carousel_3d_container_section">
+        <div class="carousel_transformation_platform" id="main_category_rotation_platform">
+
+            <article class="category_card_face card_face_front" id="button_category_movies_selection">
+                <h2 class="category_card_title">Movies</h2>
+                <p class="category_card_subtitle">Click to explore cinematography</p>
+            </article>
+
+            <article class="category_card_face card_face_back" id="button_category_books_selection">
+                <h2 class="category_card_title">Books</h2>
+                <p class="category_card_subtitle">Click to discover literature</p>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="media_search_engine_container">
+        <input type="text"
+               id="main_media_search_input"
+               name="media_search_input"
+               placeholder="Search by title, author, or genre..."
+               class="standard_search_input">
+    </section>
+
+    <section class="media_gallery_display_section" id="movies_gallery_section">
+    </section>
+
+    <section class="media_gallery_display_section" id="books_gallery_section" style="display: none;">
+    </section>
+
 </main>
 
-<script src="assets/js/data_service.js"></script>
-<script src="assets/js/interface_engine.js"></script>
+<footer class="main_project_footer">
+    <p class="footer_copyright_notice">&copy; 2026 StoryStream - Built with Docker and Passion.</p>
+</footer>
+
+<script src="index.js"></script>
 </body>
 </html>
