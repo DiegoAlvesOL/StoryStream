@@ -1,0 +1,134 @@
+/* IMPORTAÇÃO DA FONTE INTER - ESTILO ANTIGRAVITY */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap');
+
+:root {
+    --main-background-dark: #0a0a0b;
+    --main-accent-color-gold: #d4af37;
+    --text-gray-dim: #999999;
+    --glass-background: rgba(255, 255, 255, 0.02);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --transition-standard: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--main-background-dark);
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden; /* Impede scroll real da página */
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* --- GLOBAL NAVIGATION BAR --- */
+.global_navigation_bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 1000;
+    background: rgba(10, 10, 11, 0.6);
+    backdrop-filter: blur(30px);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.project_brand_logo {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.button_interface_base {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: var(--text-gray-dim);
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.button_interface_base:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.1);
+}
+
+/* --- OTIMIZAÇÃO C: CENTRALIZAÇÃO POR FLEX-BOX REAL --- */
+.fixed_selection_wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 2500px; /* Profundidade da cena */
+    overflow: hidden;
+}
+
+/* --- OTIMIZAÇÃO B: WILL-CHANGE E SUAVIZAÇÃO --- */
+.carousel_transformation_platform {
+    width: 600px;
+    height: 340px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: var(--transition-standard);
+    will-change: transform; /* Prepara a GPU para a rotação */
+}
+
+.category_card_face {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--glass-background);
+    backdrop-filter: blur(40px);
+    border: 1px solid var(--glass-border);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    cursor: pointer;
+    transition: border 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+
+/* HOVER SOMENTE COM LUZ (ESTABILIDADE TOTAL) */
+.category_card_face:hover {
+    border: 1px solid rgba(212, 175, 55, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 50px rgba(212, 175, 55, 0.15);
+}
+
+/* --- OTIMIZAÇÃO A: AFASTAMENTO DAS FACES (Z-AXIS OFFSET) --- */
+.card_face_front {
+    transform: rotateY(0deg) translateZ(2px); /* 2px à frente do centro */
+}
+
+.card_face_back {
+    transform: rotateY(180deg) translateZ(2px); /* 2px à "frente" da sua própria rotação */
+}
+
+.category_card_title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin-bottom: 5px;
+    pointer-events: none; /* Garante que o texto não intercepte o mouse */
+}
+
+.category_card_subtitle {
+    color: var(--main-accent-color-gold);
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 6px;
+    font-weight: 400;
+    pointer-events: none;
+}
