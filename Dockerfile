@@ -6,7 +6,7 @@
 # The FROM instruction defines the base image. 
 # We use nginx:alpine because it is extremely small, secure, and fast.
 # Alpine is a very lightweight Linux distribution.
-FROM nginx:alpine
+FROM nginx:1.29.6-alpine3.23
 
 # The WORKDIR instruction sets the folder inside the container where 
 # the following commands will take place. This is the default folder for Nginx.
