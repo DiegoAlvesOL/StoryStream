@@ -8,3 +8,13 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# Node
+node_modules/
+package-lock.json
+
+# Jest
+coverage/
+
+# Mac
+.DS_Store
