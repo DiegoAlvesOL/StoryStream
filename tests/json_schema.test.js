@@ -34,5 +34,46 @@ describe('books_database.json', () => {
         const uniqueIds = new Set(ids);
         expect(uniqueIds.size).toBe(books.length);
     });
+});
+
+describe('movies_database.json', () => {
+    let movies;
+
+    beforeAll(() => {
+        movies = loadJSON('data/movies_database.json');
+    });
+
+    test('should be a non-empty array', () => {
+        expect(Array.isArray(movies)).toBe(true);
+        expect(movies.length).toBeGreaterThan(0);
+    });
+
+    test.each([
+        'movieId',
+        'movieTitle',
+        'movieGenre',
+        'movieReleaseYear',
+        'movieDirector',
+        'moviePosterUrl',
+        'movieSynopsis',
+    ])('every movie should have the field "%s"', (field) => {
+        movies.forEach((movie) => {
+            expect(movie).toHaveProperty(field);
+        });
+    });
+
+    test('movieId should be a unique number for each entry', () => {
+        const ids = movies.map((m) => m.movieId);
+        const uniqueIds = new Set(ids);
+        expect(uniqueIds.size).toBe(movies.length);
+    });
+
+    test('movieReleaseYear should be a valid year', () => {
+        movies.forEach((movie) => {
+            expect(typeof movie.movieReleaseYear).toBe('number');
+            expect(movie.movieReleaseYear).toBeGreaterThan(1800);
+            expect(movie.movieReleaseYear).toBeLessThanOrEqual(new Date().getFullYear());
+        });
+    });
 
 });
