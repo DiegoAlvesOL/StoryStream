@@ -1,0 +1,66 @@
+name: StoryStream CI/CD Pipeline
+
+"on":
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  test:
+    name: Run Automated Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+  validate-json:
+    name: Validate JSON Data Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate books_database.json
+        run: node -e "JSON.parse(require('fs').readFileSync('data/books_database.json','utf-8')); console.log('books_database.json OK');"
+
+      - name: Validate movies_database.json
+        run: node -e "JSON.parse(require('fs').readFileSync('data/movies_database.json','utf-8')); console.log('movies_database.json OK');"
+
+  docker-build:
+    name: Build and Verify Docker Image
+    runs-on: ubuntu-latest
+    needs: [test, validate-json]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t storystream:latest .
+
+      - name: Verify container starts correctly
+        run: |
+          docker run -d --name storystream_test -p 8080:80 storystream:latest
+          sleep 3
+          curl --fail http://localhost:8080
+          docker stop storystream_test
+          docker rm storystream_test
+          echo "Container verified successfully."
