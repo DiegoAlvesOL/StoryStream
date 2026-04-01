@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StoryStream | Seleção Premium</title>
+    <title>StoryStream</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<header class="global_navigation_bar">
-    <div class="navigation_left_section">
-        <h1 class="project_brand_logo">StoryStream</h1>
-    </div>
+<!-- 🔝 NAVBAR -->
+<header>
+    <h1 class="project_brand_logo">StoryStream</h1>
+
     <div class="navigation_right_section">
         <button class="button_interface_base">Login</button>
         <button class="button_interface_base">Register</button>
     </div>
 </header>
 
+<!-- 🎯 MAIN -->
 <main class="fixed_selection_wrapper">
+
+    <!-- 🔄 ROTATION -->
     <section class="carousel_transformation_platform" id="main_category_rotation_platform">
 
         <article class="category_card_face card_face_front" id="trigger_movies_page">
@@ -32,8 +35,42 @@
         </article>
 
     </section>
+
+    <!-- 📦 CONTENT -->
+    <section id="content_section" style="display:none;">
+
+        <h2 id="section_title"></h2>
+
+        <div class="filter_bar">
+            <select id="genre_select" class="glass_select"></select>
+            <button id="recommend_btn" class="glass_button">✨ Recommend</button>
+        </div>
+
+        <div id="results_container"></div>
+
+        <button id="back_btn">← Back</button>
+
+    </section>
+
+    <!-- 🎬 DETAIL -->
+    <section id="detail_section" style="display:none;">
+
+        <img id="detail_image">
+
+        <h2 id="detail_title"></h2>
+        <p id="detail_info"></p>
+        <p id="detail_description"></p>
+
+        <h3 class="rating_title">⭐ Rating</h3>
+        <div id="rating_container"></div>
+
+        <button id="back_from_detail">← Back</button>
+
+    </section>
+
 </main>
 
-<script src="index.js"></script>
+<script type="module" src="index.js"></script>
+
 </body>
 </html>

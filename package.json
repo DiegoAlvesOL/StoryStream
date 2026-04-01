@@ -1,5 +1,5 @@
 {
-  "name": "StoryStream",
+  "name": "storystream",
   "version": "1.0.0",
   "description": "A review platform for books and movies.",
   "main": "index.js",
