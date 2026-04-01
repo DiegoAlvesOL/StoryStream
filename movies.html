@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryStream — Movies</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="global_navigation_bar">
+    <div class="navigation_left_section">
+        <a href="./index.html" class="navigation_logo">
+            <img src="./assets/images/logoStoryStream.png" alt="StoryStream" class="navigation_logo_image">
+        </a>
+    </div>
+    <div class="navigation_right_section">
+        <button class="navigation_button">Login</button>
+        <button class="navigation_button">Register</button>
+    </div>
+</header>
+
+<!-- Page Content -->
+<main class="page_wrapper">
+
+    <div class="page_header">
+        <a href="./index.html" class="back_link">← Back</a>
+        <p class="page_category_label">StoryStream</p>
+        <h1 class="page_title">Movies</h1>
+    </div>
+
+    <section class="carousel_section">
+        <div class="carousel_track" id="movies_carousel_track">
+            <!-- Cards injected dynamically by interface_engine.js -->
+        </div>
+    </section>
+
+</main>
+
+<script type="module" src="./assets/js/movies_page.js"></script>
+
+</body>
+</html>

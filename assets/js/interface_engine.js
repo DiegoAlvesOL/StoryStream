@@ -10,52 +10,46 @@
  * @param {HTMLElement} container - The DOM element to render cards into.
  */
 export function renderMovieCards(movies, container) {
-
-    // Always clear the container before rendering
-    // to avoid duplicate cards on re-renders
     container.innerHTML = '';
 
     movies.forEach((movie) => {
-
-        //Card wrapper
         const card = document.createElement('article');
         card.classList.add('media_card');
 
-        //Poster image
         const poster = document.createElement('img');
         poster.src = movie.moviePosterUrl;
         poster.alt = movie.movieTitle;
         poster.classList.add('media_card_poster');
 
-        //Title
+        // Info wrapper
+        const info = document.createElement('div');
+        info.classList.add('media_card_info');
+
         const title = document.createElement('h2');
         title.textContent = movie.movieTitle;
         title.classList.add('media_card_title');
 
-        //Meta info (genre + year)
         const meta = document.createElement('p');
         meta.textContent = `${movie.movieGenre} · ${movie.movieReleaseYear}`;
         meta.classList.add('media_card_meta');
 
-        //Director
         const director = document.createElement('p');
         director.textContent = `Directed by ${movie.movieDirector}`;
         director.classList.add('media_card_director');
 
-        //Read Review button
         const button = document.createElement('a');
         button.href = `movie-detail.html?id=${movie.movieId}`;
         button.textContent = 'Read Review';
         button.classList.add('media_card_button');
 
-        //Assemble the card
-        card.appendChild(poster);
-        card.appendChild(title);
-        card.appendChild(meta);
-        card.appendChild(director);
-        card.appendChild(button);
+        info.appendChild(title);
+        info.appendChild(meta);
+        info.appendChild(director);
+        info.appendChild(button);
 
-        //Inject into container
+        card.appendChild(poster);
+        card.appendChild(info);
+
         container.appendChild(card);
     });
 }
