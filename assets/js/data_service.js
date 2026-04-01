@@ -1,12 +1,35 @@
 /**
- * This service handles all data fetching operations from the JSON mock databases.
- * It provides data to the interface_engine.js for rendering.
+ * @file data_service.js
+ * @description Data layer responsible for fetching all media data from JSON files.
+ * All pages import from here — never fetch directly from HTML pages.
  */
 
 /**
- * @summary Fetches data from a specific source.
- * @description This function will be implemented to retrieve information from movies and books JSON files.
+ * Fetches and returns all movies from the JSON database.
+ * @returns {Promise<Array>} Array of movie objects.
  */
-function fetchMediaData() {
-    // Implementation will follow in the next lessons
+export async function fetchMovies() {
+    try {
+        const response = await fetch('./data/movies_database.json');
+        const movies = await response.json();
+        return movies;
+    } catch (error) {
+        console.error('Failed to fetch movies:', error);
+        return [];
+    }
+}
+
+/**
+ * Fetches and returns all books from the JSON database.
+ * @returns {Promise<Array>} Array of book objects.
+ */
+export async function fetchBooks() {
+    try {
+        const response = await fetch('./data/books_database.json');
+        const books = await response.json();
+        return books;
+    } catch (error) {
+        console.error('Failed to fetch books:', error);
+        return [];
+    }
 }
