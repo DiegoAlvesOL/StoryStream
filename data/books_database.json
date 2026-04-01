@@ -6,7 +6,8 @@
     "bookGenre": "Science Fiction",
     "bookPublicationYear": 2021,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/81zD9kaVW9L.jpg",
-    "bookDescription": "Ryland Grace is the sole survivor on a desperate, last-chance mission. If he fails, humanity and the earth itself will perish."
+    "bookDescription": "Ryland Grace is the sole survivor on a desperate, last-chance mission. If he fails, humanity and the earth itself will perish.",
+    "bookScore": 9.0
   },
   {
     "bookId": 2,
@@ -15,7 +16,8 @@
     "bookGenre": "Classic Literature",
     "bookPublicationYear": 1925,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/917z+aMk9ZL._SY385_.jpg",
-    "bookDescription": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan."
+    "bookDescription": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+    "bookScore": 8.5
   },
   {
     "bookId": 3,
@@ -24,7 +26,8 @@
     "bookGenre": "Science Fiction",
     "bookPublicationYear": 1965,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/81ycS7z87tL._AC_UF1000,1000_QL80_.jpg",
-    "bookDescription": "Set in the far future amidst a sprawling feudal interstellar empire, Dune tells the story of young Paul Atreides."
+    "bookDescription": "Set in the far future amidst a sprawling feudal interstellar empire, Dune tells the story of young Paul Atreides.",
+    "bookScore": 9.1
   },
   {
     "bookId": 4,
@@ -33,7 +36,8 @@
     "bookGenre": "Self-Help",
     "bookPublicationYear": 2018,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/81YkqxaumfL._AC_UF1000,1000_QL80_.jpg",
-    "bookDescription": "A supremely practical and useful guide to building good habits and breaking bad ones."
+    "bookDescription": "A supremely practical and useful guide to building good habits and breaking bad ones.",
+    "bookScore": 8.7
   },
   {
     "bookId": 5,
@@ -42,6 +46,57 @@
     "bookGenre": "Fantasy",
     "bookPublicationYear": 1937,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/710+H9E3nEL._AC_UF1000,1000_QL80_.jpg",
-    "bookDescription": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves."
+    "bookDescription": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves.",
+    "bookScore": 8.9
+  },
+  {
+    "bookId": 6,
+    "bookTitle": "1984",
+    "bookAuthor": "George Orwell",
+    "bookGenre": "Dystopian Fiction",
+    "bookPublicationYear": 1949,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/71kXnWvV-SL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "A dystopian novel set in a totalitarian society ruled by the Party and its omnipresent leader, Big Brother.",
+    "bookScore": 9.3
+  },
+  {
+    "bookId": 7,
+    "bookTitle": "Sapiens",
+    "bookAuthor": "Yuval Noah Harari",
+    "bookGenre": "Non-Fiction",
+    "bookPublicationYear": 2011,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "A brief history of humankind, exploring how Homo sapiens came to dominate the Earth.",
+    "bookScore": 8.9
+  },
+  {
+    "bookId": 8,
+    "bookTitle": "The Alchemist",
+    "bookAuthor": "Paulo Coelho",
+    "bookGenre": "Fiction",
+    "bookPublicationYear": 1988,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "A young Andalusian shepherd follows his dream of finding a worldly treasure, guided by omens and a mysterious alchemist.",
+    "bookScore": 8.4
+  },
+  {
+    "bookId": 9,
+    "bookTitle": "Crime and Punishment",
+    "bookAuthor": "Fyodor Dostoevsky",
+    "bookGenre": "Classic Literature",
+    "bookPublicationYear": 1866,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/71LpZwqd7eL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "A young student commits a crime and must face the psychological torment of guilt and redemption in Tsarist Russia.",
+    "bookScore": 9.0
+  },
+  {
+    "bookId": 10,
+    "bookTitle": "The Pragmatic Programmer",
+    "bookAuthor": "Andrew Hunt & David Thomas",
+    "bookGenre": "Technology",
+    "bookPublicationYear": 1999,
+    "bookPosterUrl": "https://m.media-amazon.com/images/I/71f1jieYHNL._AC_UF1000,1000_QL80_.jpg",
+    "bookDescription": "A collection of tips and techniques for writing better code, thinking about software development, and building a career as a developer.",
+    "bookScore": 8.7
   }
 ]

@@ -290,3 +290,31 @@ body.page_scrollable {
 .back_link:hover {
     color: var(--main-accent-color-gold);
 }
+
+
+/* ============================================================
+   CONTENT SECTIONS — Genre and Top Rated
+   ============================================================ */
+
+.content_section {
+    padding: 0 60px 50px;
+}
+
+.section_title {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.media_card_score {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--main-accent-color-gold);
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+}

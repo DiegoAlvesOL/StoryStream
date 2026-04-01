@@ -6,7 +6,8 @@
     "movieReleaseYear": 2010,
     "movieDirector": "Christopher Nolan",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/9gk7Fn9UVC1r9oSTkq9C1C3O1PI.jpg",
-    "movieSynopsis": "A thief who steals corporate secrets through the use of dream-sharing technology..."
+    "movieSynopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "movieScore": 8.8
   },
   {
     "movieId": 2,
@@ -15,7 +16,8 @@
     "movieReleaseYear": 1994,
     "movieDirector": "Frank Darabont",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/q6y0Go1tsSET2fs7XpCqKg3BvTM.jpg",
-    "movieSynopsis": "Two imprisoned men bond over a number of years..."
+    "movieSynopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "movieScore": 9.3
   },
   {
     "movieId": 3,
@@ -24,7 +26,8 @@
     "movieReleaseYear": 2008,
     "movieDirector": "Christopher Nolan",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDp9QmSbmRkPqG9mH9d.jpg",
-    "movieSynopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham..."
+    "movieSynopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "movieScore": 9.0
   },
   {
     "movieId": 4,
@@ -33,15 +36,67 @@
     "movieReleaseYear": 1994,
     "movieDirector": "Quentin Tarantino",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/d5iIl9h9btztp90Yv7StipOWCfh.jpg",
-    "movieSynopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife..."
+    "movieSynopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "movieScore": 8.9
   },
   {
     "movieId": 5,
     "movieTitle": "Interstellar",
-    "movieGenre": "Adventure",
+    "movieGenre": "Science Fiction",
     "movieReleaseYear": 2014,
     "movieDirector": "Christopher Nolan",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6Ea7mYFmmodesvRoaR9.jpg",
-    "movieSynopsis": "A team of explorers travel through a wormhole in space..."
+    "movieSynopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "movieScore": 8.6
+  },
+  {
+    "movieId": 6,
+    "movieTitle": "The Godfather",
+    "movieGenre": "Crime",
+    "movieReleaseYear": 1972,
+    "movieDirector": "Francis Ford Coppola",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLeBHKhZboLT.jpg",
+    "movieSynopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "movieScore": 9.2
+  },
+  {
+    "movieId": 7,
+    "movieTitle": "Schindler's List",
+    "movieGenre": "Drama",
+    "movieReleaseYear": 1993,
+    "movieDirector": "Steven Spielberg",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "movieSynopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "movieScore": 9.0
+  },
+  {
+    "movieId": 8,
+    "movieTitle": "The Matrix",
+    "movieGenre": "Science Fiction",
+    "movieReleaseYear": 1999,
+    "movieDirector": "Lana Wachowski",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "movieSynopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "movieScore": 8.7
+  },
+  {
+    "movieId": 9,
+    "movieTitle": "Forrest Gump",
+    "movieGenre": "Drama",
+    "movieReleaseYear": 1994,
+    "movieDirector": "Robert Zemeckis",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+    "movieSynopsis": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life.",
+    "movieScore": 8.8
+  },
+  {
+    "movieId": 10,
+    "movieTitle": "Whiplash",
+    "movieGenre": "Drama",
+    "movieReleaseYear": 2014,
+    "movieDirector": "Damien Chazelle",
+    "moviePosterUrl": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "movieSynopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "movieScore": 8.5
   }
 ]

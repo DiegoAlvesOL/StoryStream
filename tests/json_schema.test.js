@@ -20,9 +20,14 @@ describe('books_database.json', () => {
     });
 
     test.each([
-        'bookId', 'bookTitle', 'bookAuthor',
-        'bookGenre', 'bookPublicationYear',
-        'bookPosterUrl', 'bookDescription',
+        'bookId',
+        'bookTitle',
+        'bookAuthor',
+        'bookGenre',
+        'bookPublicationYear',
+        'bookPosterUrl',
+        'bookDescription',
+        'bookScore',
     ])('every book should have the field "%s"', (field) => {
         books.forEach((book) => {
             expect(book).toHaveProperty(field);
@@ -33,6 +38,14 @@ describe('books_database.json', () => {
         const ids = books.map((b) => b.bookId);
         const uniqueIds = new Set(ids);
         expect(uniqueIds.size).toBe(books.length);
+    });
+
+    test('bookScore should be a number between 0 and 10', () => {
+        books.forEach((book) => {
+            expect(typeof book.bookScore).toBe('number');
+            expect(book.bookScore).toBeGreaterThanOrEqual(0);
+            expect(book.bookScore).toBeLessThanOrEqual(10);
+        });
     });
 });
 
@@ -56,6 +69,7 @@ describe('movies_database.json', () => {
         'movieDirector',
         'moviePosterUrl',
         'movieSynopsis',
+        'movieScore',
     ])('every movie should have the field "%s"', (field) => {
         movies.forEach((movie) => {
             expect(movie).toHaveProperty(field);
@@ -76,4 +90,11 @@ describe('movies_database.json', () => {
         });
     });
 
+    test('movieScore should be a number between 0 and 10', () => {
+        movies.forEach((movie) => {
+            expect(typeof movie.movieScore).toBe('number');
+            expect(movie.movieScore).toBeGreaterThanOrEqual(0);
+            expect(movie.movieScore).toBeLessThanOrEqual(10);
+        });
+    });
 });
