@@ -7,7 +7,8 @@
     "movieDirector": "Christopher Nolan",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/9gk7Fn9UVC1r9oSTkq9C1C3O1PI.jpg",
     "movieSynopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-    "movieScore": 8.8
+    "movieScore": 8.8,
+    "movieReview": "Inception is one of those films you finish and immediately want to watch again — not because you missed something, but because you want to catch everything you already saw in a new light. Nolan built something genuinely rare here: a blockbuster that treats its audience as intelligent adults. The dream-within-a-dream structure could have collapsed into confusing nonsense, but instead it holds together with almost architectural precision. What really sells it is the emotional core buried underneath all the spectacle. Cobb is not just a guy doing heists in people's heads — he is a man who cannot let go of his guilt, and every layer of the dream reflects that. DiCaprio carries that weight convincingly throughout. The Hans Zimmer score is iconic for a reason, and the final shot remains one of cinema's great unresolved questions. Is it pretentious? Maybe a little. Does it earn it? Absolutely."
   },
   {
     "movieId": 2,
@@ -17,7 +18,8 @@
     "movieDirector": "Frank Darabont",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/q6y0Go1tsSET2fs7XpCqKg3BvTM.jpg",
     "movieSynopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-    "movieScore": 9.3
+    "movieScore": 9.3,
+    "movieReview": "There is a reason this film sits at the top of almost every greatest movies list, and it is not nostalgia — it is because it is genuinely that good. Shawshank works because it never feels manipulative even when the story is pulling every emotional string it has. The friendship between Andy and Red develops slowly and naturally, and by the time the final act arrives you are completely invested in both of them. Tim Robbins plays Andy with a quiet dignity that never breaks even in the worst moments, and Morgan Freeman's narration gives the whole film a warmth that keeps it from becoming too bleak. This is a film about hope in a place designed to destroy it, and it makes that theme feel earned rather than naive. If you have somehow never seen it, clear your evening."
   },
   {
     "movieId": 3,
@@ -27,7 +29,8 @@
     "movieDirector": "Christopher Nolan",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDp9QmSbmRkPqG9mH9d.jpg",
     "movieSynopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-    "movieScore": 9.0
+    "movieScore": 9.0,
+    "movieReview": "Heath Ledger's Joker is one of the greatest performances in the history of cinema. That is not hyperbole — it is just a fact that becomes more obvious every time you rewatch this film. He walks into every scene and completely owns it, and the rest of a genuinely excellent cast still struggles to keep up. But The Dark Knight is more than just a showcase for one actor. Nolan took a comic book movie and turned it into a serious crime thriller that asks real questions about order, chaos, and what we are willing to sacrifice for safety. The interrogation scene, the hospital explosion, the truck chase — every set piece feels purposeful rather than just spectacular. This is the film that proved superhero movies could be genuinely great cinema."
   },
   {
     "movieId": 4,
@@ -37,7 +40,8 @@
     "movieDirector": "Quentin Tarantino",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/d5iIl9h9btztp90Yv7StipOWCfh.jpg",
     "movieSynopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-    "movieScore": 8.9
+    "movieScore": 8.9,
+    "movieReview": "Pulp Fiction is the movie that made it cool to talk about fast food while holding a gun, and somehow that sentence makes perfect sense once you have seen it. Tarantino's non-linear structure was genuinely radical in 1994 and it still feels fresh today. The dialogue is the real star — every conversation, no matter how mundane the topic, crackles with personality and dark humour. John Travolta's career revival, Samuel L. Jackson turning a Bible verse into a monologue people still quote thirty years later, Uma Thurman being effortlessly cool — the cast is operating at an absurd collective level. This is not a film that glorifies crime so much as it finds it darkly funny and completely absurd. A landmark film that influenced an entire generation of filmmakers."
   },
   {
     "movieId": 5,
@@ -47,7 +51,8 @@
     "movieDirector": "Christopher Nolan",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/gEU2QniE6Ea7mYFmmodesvRoaR9.jpg",
     "movieSynopsis": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    "movieScore": 8.6
+    "movieScore": 8.6,
+    "movieReview": "Interstellar is Nolan at his most ambitious and, for many people, at his most divisive. The science is surprisingly solid for a Hollywood blockbuster — the black hole visualisation alone is genuinely one of the most stunning things ever put on screen. Where the film gets complicated is in its emotional storytelling. The father-daughter relationship at the heart of the film is genuinely moving, and Matthew McConaughey sells every beat of it. But the third act veers into territory that some find transcendent and others find deeply silly. Your enjoyment will largely depend on how willing you are to follow Nolan into that space. Whatever its flaws, this is a film that swings for something genuinely profound, and that alone makes it worth your time."
   },
   {
     "movieId": 6,
@@ -57,7 +62,8 @@
     "movieDirector": "Francis Ford Coppola",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLeBHKhZboLT.jpg",
     "movieSynopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-    "movieScore": 9.2
+    "movieScore": 9.2,
+    "movieReview": "Calling The Godfather a great film feels like an understatement. It is one of the few movies that fully deserves every piece of praise it has ever received. Coppola took a pulpy crime novel and turned it into a meditation on family, power, loyalty and corruption that works on every single level. Marlon Brando's Don Corleone is iconic for good reason — there is so much going on behind every quiet word and deliberate gesture. But the real revelation is Al Pacino as Michael, the reluctant son who gets pulled into a world he despised and is slowly consumed by it. The transformation is subtle and devastating. Nearly every scene in this film is a masterclass in cinema. If you have not seen it, that changes today."
   },
   {
     "movieId": 7,
@@ -67,7 +73,8 @@
     "movieDirector": "Steven Spielberg",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
     "movieSynopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
-    "movieScore": 9.0
+    "movieScore": 9.0,
+    "movieReview": "Schindler's List is one of the most important films ever made, and also one of the hardest to watch. Spielberg made the deliberate choice to shoot in black and white, which gives the film a documentary quality that makes the horror feel immediate and real rather than historical. Liam Neeson plays Oskar Schindler with a complexity that resists easy heroism — this is a man motivated by profit who gradually, almost reluctantly, becomes something far greater. Ralph Fiennes as Amon Goeth is one of cinema's most terrifying villains precisely because he is so human. This is not entertainment in any comfortable sense. It is a film that demands to be seen and demands to be remembered."
   },
   {
     "movieId": 8,
@@ -77,7 +84,8 @@
     "movieDirector": "Lana Wachowski",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
     "movieSynopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-    "movieScore": 8.7
+    "movieScore": 8.7,
+    "movieReview": "The Matrix arrived in 1999 and immediately made every other action film look dated. The bullet time sequences were so influential that they became a cliche within years, but watching the original still feels electric. What separates it from pure spectacle is the philosophical foundation underneath — the film takes its ideas about reality, free will and control seriously, and that gives every action sequence a weight that goes beyond cool visuals. Keanu Reeves is perfectly cast as someone who looks perpetually confused by the situation he is in, which works exactly as intended. Laurence Fishburne as Morpheus is magnetic in every scene. The sequels complicated the legacy, but this first film stands completely on its own as a genuine landmark of science fiction cinema."
   },
   {
     "movieId": 9,
@@ -87,7 +95,8 @@
     "movieDirector": "Robert Zemeckis",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
     "movieSynopsis": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life.",
-    "movieScore": 8.8
+    "movieScore": 8.8,
+    "movieReview": "Forrest Gump is a film that divides people more than its reputation suggests. Some find it sentimental and manipulative. Others find it genuinely moving. Having watched it multiple times, I land firmly in the second camp. Tom Hanks delivers one of his finest performances as a man who wanders through five decades of American history without ever fully understanding what he is witnessing, and that gap between his innocence and the chaos around him is where the film finds most of its emotional power. The historical integration is clever and still impressive technically. The soundtrack is a perfect time capsule of its era. Yes, it is unashamedly sentimental — but it earns most of its emotions honestly."
   },
   {
     "movieId": 10,
@@ -97,6 +106,7 @@
     "movieDirector": "Damien Chazelle",
     "moviePosterUrl": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
     "movieSynopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
-    "movieScore": 8.5
+    "movieScore": 8.5,
+    "movieReview": "Whiplash is one of the most viscerally intense films of the last decade, which is remarkable given that it is essentially about a kid practising drums. Damien Chazelle turns music education into a psychological war, and J.K. Simmons as the terrifying conductor Fletcher gives a performance that makes you genuinely unsure whether you are watching a villain or a misunderstood genius. Miles Teller matches him beat for beat as a young musician willing to destroy himself in pursuit of greatness. The film asks an uncomfortable question — is there a level of excellence that can only be reached through cruelty — and it refuses to give you a clean answer. The final performance sequence is one of the most thrilling pieces of filmmaking in recent memory."
   }
 ]

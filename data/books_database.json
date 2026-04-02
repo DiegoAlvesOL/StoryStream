@@ -7,7 +7,8 @@
     "bookPublicationYear": 2021,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/81zD9kaVW9L.jpg",
     "bookDescription": "Ryland Grace is the sole survivor on a desperate, last-chance mission. If he fails, humanity and the earth itself will perish.",
-    "bookScore": 9.0
+    "bookScore": 9.0,
+    "bookReview": "Project Hail Mary might be the most purely enjoyable science fiction novel written in the last decade. Andy Weir does what he does best — takes hard science and wraps it in a story that is impossible to put down. The central character wakes up alone in a spacecraft with no memory of who he is or how he got there, and piecing together the answer alongside him is genuinely thrilling. What makes the book exceptional though is a relationship that develops midway through the story, which I will not spoil here. It is one of the most original and emotionally resonant things in recent sci-fi. If you bounced off The Martian because it felt too engineering-heavy, give this one a chance anyway — the human element hits much harder."
   },
   {
     "bookId": 2,
@@ -17,7 +18,8 @@
     "bookPublicationYear": 1925,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/917z+aMk9ZL._SY385_.jpg",
     "bookDescription": "The story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
-    "bookScore": 8.5
+    "bookScore": 8.5,
+    "bookReview": "The Great Gatsby is one of those books that rewards rereading more than almost any other novel in the American canon. On the surface it is a love story about obsession and wealth. Underneath it is a brutal autopsy of the American Dream and the hollow pursuit of status. Fitzgerald writes with a precision that makes every sentence feel deliberate — there is no waste anywhere in this book. Nick Carraway is a fascinating narrator because he is both inside the story and constantly trying to position himself as a detached observer, which is its own kind of self-deception. Gatsby himself is more symbol than person, and that is entirely the point. Short, elegant, and more relevant today than it has any right to be."
   },
   {
     "bookId": 3,
@@ -27,7 +29,8 @@
     "bookPublicationYear": 1965,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/81ycS7z87tL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "Set in the far future amidst a sprawling feudal interstellar empire, Dune tells the story of young Paul Atreides.",
-    "bookScore": 9.1
+    "bookScore": 9.1,
+    "bookReview": "Dune is one of the most ambitious world-building projects in the history of literature, and the remarkable thing is that Herbert actually pulls it off. The desert planet of Arrakis feels completely real — the ecology, the politics, the religion, the economics all interlock in ways that feel genuinely thought through rather than invented for plot convenience. Paul Atreides starts the novel as a standard chosen-one protagonist and gradually becomes something far more complicated and morally ambiguous, which is where the book earns its reputation. It is dense and demands patience, especially in the first hundred pages. But once it grabs you it does not let go. The recent film adaptations are excellent, but the book goes deeper into Herbert's ideas about power, prophecy and ecological collapse. Essential reading."
   },
   {
     "bookId": 4,
@@ -37,7 +40,8 @@
     "bookPublicationYear": 2018,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/81YkqxaumfL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "A supremely practical and useful guide to building good habits and breaking bad ones.",
-    "bookScore": 8.7
+    "bookScore": 8.7,
+    "bookReview": "Most self-help books recycle the same ideas with different branding. Atomic Habits is different because James Clear actually builds a coherent system rather than just offering motivational advice. The core insight — that tiny improvements compound dramatically over time and that systems matter more than goals — sounds simple but the book earns it through practical frameworks and well-chosen examples. The habit loop model and the concept of identity-based habits are genuinely useful tools that stick with you after you close the book. It is readable in a way that many business books are not, and Clear respects your time by being direct and concrete. Whether you implement everything or just take two or three ideas, this is one of the more practically valuable books in the genre."
   },
   {
     "bookId": 5,
@@ -47,7 +51,8 @@
     "bookPublicationYear": 1937,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/710+H9E3nEL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves.",
-    "bookScore": 8.9
+    "bookScore": 8.9,
+    "bookReview": "The Hobbit is the rare book that works just as well for adults returning to it as it does for children reading it for the first time. Tolkien's voice in this novel is warmer and more playful than in The Lord of the Rings — he is clearly having fun, and that joy comes through on every page. Bilbo is a wonderful protagonist precisely because he is so ordinary and so reluctant. The adventure finds him rather than the other way around, and watching him discover reserves of courage and resourcefulness he did not know he had is genuinely satisfying. The world-building is lighter here than in Tolkien's later work, which makes it more accessible. If you have been meaning to visit Middle-earth and have not started yet, this is the right door."
   },
   {
     "bookId": 6,
@@ -57,7 +62,8 @@
     "bookPublicationYear": 1949,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/71kXnWvV-SL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "A dystopian novel set in a totalitarian society ruled by the Party and its omnipresent leader, Big Brother.",
-    "bookScore": 9.3
+    "bookScore": 9.3,
+    "bookReview": "1984 is one of those novels that gets more uncomfortable to read with each passing year, which is probably the most accurate measure of how well it has aged. Orwell wrote this as a warning about a specific political moment and ended up creating a universal anatomy of authoritarian control that applies with eerie precision to the present. The concepts he invented — doublethink, newspeak, the memory hole, Big Brother — have entered the language because they describe something real. Winston Smith is not a hero in any conventional sense. He is a small man trying to hold onto his own mind in a system designed to make that impossible, and following his attempt is both gripping and deeply unsettling. Difficult but essential."
   },
   {
     "bookId": 7,
@@ -67,7 +73,8 @@
     "bookPublicationYear": 2011,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "A brief history of humankind, exploring how Homo sapiens came to dominate the Earth.",
-    "bookScore": 8.9
+    "bookScore": 8.9,
+    "bookReview": "Sapiens does something that most history books fail to do — it makes you feel the strangeness of being human. Harari zooms out to a scale where our civilisations, religions and economies look like the collective fictions they arguably are, and from that distance everything familiar becomes fascinating again. The book moves from the cognitive revolution through agriculture, empire, money and science with a pace that keeps you turning pages. Some historians take issue with how freely Harari generalises, and those criticisms are fair — this is not an academic text. But as an introduction to thinking about human history at scale, it is brilliant. The chapters on money and religion alone are worth the price of the book."
   },
   {
     "bookId": 8,
@@ -77,7 +84,8 @@
     "bookPublicationYear": 1988,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "A young Andalusian shepherd follows his dream of finding a worldly treasure, guided by omens and a mysterious alchemist.",
-    "bookScore": 8.4
+    "bookScore": 8.4,
+    "bookReview": "The Alchemist is a book that polarises readers almost entirely based on timing. Read it at the right moment in your life and it feels like it was written specifically for you. Read it at the wrong moment and it feels like an extended motivational poster. Coelho writes in fables and his prose is deliberately simple — every sentence is clear and the symbolism is never subtle. The journey of Santiago from shepherd to seeker is essentially a meditation on listening to your own desires and having the courage to follow them. Whether you find that profound or obvious probably depends on where you are when you pick it up. I find it genuinely moving, and the image of the universe conspiring to help those who pursue their dreams is one I keep returning to."
   },
   {
     "bookId": 9,
@@ -87,7 +95,8 @@
     "bookPublicationYear": 1866,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/71LpZwqd7eL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "A young student commits a crime and must face the psychological torment of guilt and redemption in Tsarist Russia.",
-    "bookScore": 9.0
+    "bookScore": 9.0,
+    "bookReview": "Crime and Punishment is proof that nineteenth century Russian literature can be genuinely unputdownable. Dostoevsky spends almost no time on the crime itself — the psychological aftermath is the entire point. Raskolnikov is one of literature's great unreliable narrators, a man so convinced of his own special status that he believes he has placed himself beyond ordinary moral rules, and watching that conviction disintegrate under the weight of guilt is both compelling and deeply human. The novel reads like a fever dream in the best possible way — urgent, claustrophobic, and constantly surprising. Porfiry the detective is one of literature's most underrated characters. This is not light reading but it is rewarding in a way that few books manage."
   },
   {
     "bookId": 10,
@@ -97,6 +106,7 @@
     "bookPublicationYear": 1999,
     "bookPosterUrl": "https://m.media-amazon.com/images/I/71f1jieYHNL._AC_UF1000,1000_QL80_.jpg",
     "bookDescription": "A collection of tips and techniques for writing better code, thinking about software development, and building a career as a developer.",
-    "bookScore": 8.7
+    "bookScore": 8.7,
+    "bookReview": "The Pragmatic Programmer is one of those books that every developer should read early in their career and then reread every few years because something new will land each time. Hunt and Thomas write with a directness that cuts through the usual noise — they are not interested in selling you a methodology or a framework, just in helping you think more clearly about your craft. Concepts like DRY, orthogonality, and tracer bullets are explained with clarity and backed by practical examples. The book is language-agnostic which is part of why it has aged so well — the ideas apply whether you are writing Python, C# or JavaScript. If you are transitioning into software development professionally, this is one of the first technical books you should pick up."
   }
 ]

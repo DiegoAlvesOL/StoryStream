@@ -28,6 +28,7 @@ describe('books_database.json', () => {
         'bookPosterUrl',
         'bookDescription',
         'bookScore',
+        'bookReview',
     ])('every book should have the field "%s"', (field) => {
         books.forEach((book) => {
             expect(book).toHaveProperty(field);
@@ -70,6 +71,7 @@ describe('movies_database.json', () => {
         'moviePosterUrl',
         'movieSynopsis',
         'movieScore',
+        'movieReview',
     ])('every movie should have the field "%s"', (field) => {
         movies.forEach((movie) => {
             expect(movie).toHaveProperty(field);
