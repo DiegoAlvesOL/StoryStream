@@ -318,3 +318,114 @@ body.page_scrollable {
     margin-bottom: 8px;
     letter-spacing: 0.05em;
 }
+
+/* ============================================================
+   DETAIL PAGE
+   ============================================================ */
+
+.detail_content_wrapper {
+    padding: 120px 60px 80px;
+    min-height: 100vh;
+}
+
+.detail_layout {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.detail_poster_column {
+    flex-shrink: 0;
+}
+
+.detail_poster {
+    width: 320px;
+    border-radius: 16px;
+    display: block;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.detail_info_column {
+    flex: 1;
+    padding-top: 8px;
+}
+
+.detail_category_label {
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--main-accent-color-gold);
+    margin-bottom: 12px;
+}
+
+.detail_title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.detail_meta_row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.detail_score {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--main-accent-color-gold);
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.detail_meta_item {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.45);
+    letter-spacing: 0.05em;
+}
+
+.detail_director {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.45);
+    margin-bottom: 24px;
+}
+
+.detail_divider {
+    width: 40px;
+    height: 1px;
+    background: var(--main-accent-color-gold);
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+
+.detail_review {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 40px;
+    max-width: 600px;
+}
+
+.detail_error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    gap: 24px;
+}
+
+.detail_error_message {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: center;
+}
